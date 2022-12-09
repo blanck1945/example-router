@@ -1,0 +1,39 @@
+.logo {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.nav-btn {
+  background-color: aliceblue;
+}
+
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ulNav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  direction: row;
+  gap: 1rem;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(137, 134, 134, 0.7);
+  z-index: 1020;
+  height: 5rem;
+  padding: 0 2rem ;
+}
+
+.aMenu {
+  text-decoration: none;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  font-size: 1rem;
+}
